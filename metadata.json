@@ -1,0 +1,6 @@
+{
+  "name": "Коммерческое предложение — Telegram-бот для салона",
+  "description": "Деловое коммерческое предложение по внедрению мультиязычного Telegram-бота для онлайн-записи, управления мастерами и удержания клиентов салона красоты.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
