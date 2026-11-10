@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowRight, Play, CheckCircle2 } from 'lucide-react';
-
+import heroImage from '../assets/images/hero_salon_minimalist_1794301642639.jpg';
 interface HeroSectionProps {
   onScrollToSection: (sectionId: string) => void;
 }
@@ -83,11 +83,10 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onScrollToSection }) =
           <div className="lg:col-span-5 flex flex-col justify-center">
             <div className="relative rounded-lg overflow-hidden border border-zinc-200 bg-zinc-100 shadow-sm aspect-16/10 lg:aspect-auto lg:h-full min-h-[320px]">
               <img
-                src="/src/assets/images/hero_salon_minimalist_1794301642639.jpg"
-                alt="Интерьер премиального салона красоты"
-                referrerPolicy="no-referrer"
-                className="w-full h-full object-cover"
-              />
+  src={heroImage}
+  alt="Интерьер премиального салона красоты"
+  className="w-full h-full object-cover"
+/>
               <div className="absolute inset-0 bg-gradient-to-t from-zinc-950/70 via-transparent to-transparent flex items-end p-5">
                 <div className="text-white">
                   <div className="text-xs uppercase tracking-wider text-zinc-300 font-medium mb-1">
